@@ -78,7 +78,7 @@ class DisplayPIL(Display):
         Display.__init__(self, args)
 
         #from fonts.ttf import RobotoMedium as UserFont
-        UserFornt = 'SourceHanSans-Medium.otf'
+        UserFont = 'SourceHanSans-Medium.otf'
         from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
         self._downscale = 2
